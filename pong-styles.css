@@ -10,7 +10,7 @@ body {
 }
 #game {
   margin: 4px;
-  border: 5px solid #4169e1;
+  border: 5px solid black;
   left: 0;
   position: absolute;
   background-image: url("The Abyss.jpg");
