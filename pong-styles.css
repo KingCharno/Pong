@@ -20,7 +20,7 @@ body {
 #left-paddle {
   background-color: black;
   left: 10px;
-  height: 25px;
+  height: 10px;
 }
 
 #right-paddle {
