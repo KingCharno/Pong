@@ -18,7 +18,7 @@ import {
   playDeferredSounds
 } from "./pong-audio.js";
 //Defaults for game objects
-import { Game, Ball, Paddle } from "./pong-classes.js";
+import { Game, Ball, Right Paddle, Left Paddle } from "./pong-classes.js";
 //Game Events
 import {
   GameEvent,
@@ -47,13 +47,13 @@ var ball = new Ball();
 ball.htmlElement = document.getElementById("ball");
 ballReset();
 var paddleArray = [];
-var paddleLeft = new Paddle();
+var paddleLeft = new Left Paddle();
 paddleLeft.controller = "player1";
 paddleLeft.htmlElement = document.getElementById("left-paddle");
 paddleArray.push(paddleLeft);
 //If the game is too hard, make your paddle bigger, but don't go too big!
 //paddleLeft.size.y = 150;
-var paddleRight = new Paddle();
+var paddleRight = new Right Paddle();
 paddleRight.controller = "player2";
 paddleRight.htmlElement = document.getElementById("right-paddle");
 paddleArray.push(paddleRight);
