@@ -47,13 +47,13 @@ var ball = new Ball();
 ball.htmlElement = document.getElementById("ball");
 ballReset();
 var paddleArray = [];
-var paddleLeft = new Paddle();
+var paddleLeft = new Left Paddle();
 paddleLeft.controller = "player1";
 paddleLeft.htmlElement = document.getElementById("left-paddle");
 paddleArray.push(paddleLeft);
 //If the game is too hard, make your paddle bigger, but don't go too big!
 //paddleLeft.size.y = 150;
-var paddleRight = new Paddle();
+var paddleRight = new Right Paddle();
 paddleRight.controller = "player2";
 paddleRight.htmlElement = document.getElementById("right-paddle");
 paddleArray.push(paddleRight);
@@ -86,7 +86,10 @@ function gameProcess() {
   if (ballHitWall.state === true) {
     wallSound.play();
   }
-  if (ballHitPaddle.state) {
+  if (ballHitLeft Paddle.state) {
+    paddleSound.play();
+  }
+  if (ballHitRight Paddle.state) {
     paddleSound.play();
   }
   if (leftScoreHit.state) {
