@@ -18,7 +18,7 @@ import {
   playDeferredSounds
 } from "./pong-audio.js";
 //Defaults for game objects
-import { Game, Ball, Paddle } from "./pong-classes.js";
+import { Game, Ball, Right Paddle, Left Paddle } from "./pong-classes.js";
 //Game Events
 import {
   GameEvent,
