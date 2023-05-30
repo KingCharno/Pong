@@ -46,7 +46,7 @@ export var soundArray = []; //list of sounds loaded
 export var wallSound = new soundFile("Sonar-ping-sound.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
-export var paddleSound = new soundFile("paddle.mp3");
+export var paddleSound = new soundFile("Deep Ocean Monster Noise.mp3");
 soundArray.push(paddleSound);
 
 export var scoreSound = new soundFile("silence.mp3");
